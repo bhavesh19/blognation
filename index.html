@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="http://fonts.cdnfonts.com/css/get-show" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/m12-match-biker" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/next-art?styles=25350" rel="stylesheet">
+                
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        .heading{
+            font-family: 'Get Show', sans-serif;                             
+        }
+        .size{
+            font-size: 75px;
+        }
+        .one{
+            font-family: 'NEXT ART', sans-serif;
+            color:aliceblue;
+            text-shadow: 5px 5px 8px #444141;
+        }
+        .container{
+            color: #463333!important;
+        }
+
+        .two{
+            font-family: 'Get Show', sans-serif;   
+            font-size: 35px;
+            padding: 2px;
+        }
+        .btnsize{
+            font-size: 20px;
+        }
+        
+    </style>
+                
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="div heading">
+    
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.jpg" width="150" class="d-inline-block align-top" alt="logo">
+      <span class="size">Blognation</span>
+      <div class="d-felx justify-content-end">
+      <a href="signup.html" class="btn btn-block-right btn-outline-success btnsize">Sign Up</a>
+      <button type="button" data-toggle="modal" data-target="#login" class="btn btn-block-right btn-outline-info btnsize">Log In</button>
+      <div id="login" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="form-group">
+                <label class="two">Enter Username:</label>
+                <input type="text" class="two" placeholder="Enter your username"><br>
+                <label class="two">Enter Password:</label>
+                <input type="password" class="two" placeholder="Enter your password">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success btnsize" data-dismiss="modal">Log In</button>
+              <button type="button" class="btn btn-outline-primary btnsize" data-dismiss="modal">Cancel</button>
+            </div>
+          </div>
+      </div>
+</div>
+    </a>
+
+  </nav>
+    
+</div>
+
+<div class="p-2">
+
+</div>
+
+
+<section>
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="caraouselbg.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block one">
+                  <h5>Why to blog?</h5>
+                  <p>The landscape has changed, but there are still countless blogs that serve as a platform for people to voice their ideas, 
+                    thoughts, and feelings. Whether your passion is business, personal finance, cooking, politics, photography,
+                    or marketing, blogging gives you the opportunity to connect and network with likeminded individuals who share the same passions.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="caraouselbg.png" class="d-block w-100"  alt="...">
+                <div class="carousel-caption d-none d-md-block one">
+                  <h5>Make a difference</h5>
+                  <p>Some people’s passions lean toward supporting a cause. 
+                    Whether it’s a political, environmental or social cause,
+                    a blog is a great way to build awareness and garner support.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="caraouselbg.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block one">
+                  <h5>Share your knowledge</h5>
+                  <p>If you’re someone who loves to teach, starting a blog can provide the opportunity to educate others interested in your field of expertise.
+                    The best part is that, as you build resources on your blog to teach others,
+                    you may realize there is a chance to monetize your blog by creating educational products or services online.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+</section>
+
+
+<div class="p-2">
+
+</div>
+
+<section>
+  <div class="container">
+      <a href="topbloggers.html" class="btn btn-block btn-outline-success btn-lg"><div class="two"> Check out our top bloggers </div></a>
+  </div>
+  
+</section>
+
+<div class="p-2"></div>
+
+<section>
+    <div class="container">
+        <a href="signup.html" class="btn btn-block btn-outline-primary btn-lg"><div class="two"> Start blogging now! </div></a>
+    </div>
+    
+</section>
+
+<div class="p-4"></div>
+
+<footer>
+    <div class="container two bg-light">
+        <div class="row">
+            <div class="col-md-3">
+                <i class="bi bi-facebook p-3">Blognation</i>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-twitter p-3">Blognation</i>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-envelope-fill p-2">query@blognation.com</i>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-instagram p-3">blognation</i>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
